@@ -32,7 +32,7 @@ const GAMES = [
     added: "2026-06-30T20:22:00",
     download: "https://iboragit.github.io/DL/dl1/",
     fix: "https://gofile.io/d/Uv9Iyg",
-    fixType: "download"
+    fixType: "url"
   },
   {
     id: "ember-tactics",
