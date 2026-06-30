@@ -23,14 +23,15 @@
 
 const GAMES = [
   {
-    id: "shadow-keep",
-    title: "Shadow Keep",
-    mode: "solo",
-    category: "Horreur",
-    tags: ["Survie", "Atmosphérique"],
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
-    added: "2026-06-29T21:40:00",
-    download: "https://example.com/downloads/shadow-keep.zip",
+    id: "phasmophobia",
+    title: "Phasmophobia",
+    mode: "multi",
+    category: "Coop",
+    tags: ["Survie", "Horreur"],
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1782311537",
+    added: "2026-06-30T20:22:00",
+    download: "https://iboragit.github.io/DL/dl1/",
+    fix: "https://gofile.io/d/Uv9Iyg",
     fixType: "download"
   },
   {
