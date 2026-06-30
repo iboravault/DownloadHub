@@ -71,11 +71,11 @@ const GAMES = [
     fixType: "url"
   },
   {
-    id: "verdant-ruins",
-    title: "Verdant Ruins",
-    mode: "solo",
-    category: "Aventure",
-    tags: ["Monde Ouvert", "Narratif"],
+    id: "escape-the-backrooms",
+    title: "Escape the Backrooms",
+    mode: "multi",
+    category: "Coop",
+    tags: ["Horreur", "Survie", "Puzzle"],
     image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1782122172",
     added: "2026-06-30T20:43:00",
     download: "https://iboragit.github.io/DL/dl5/",
