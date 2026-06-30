@@ -1,0 +1,62 @@
+/* =============================================================================
+   responsive.css — adaptation desktop / laptop / tablette / mobile
+============================================================================= */
+
+@media (max-width: 1024px){
+  :root{ --sidebar-w: 220px; }
+  .main-content{ padding:26px 24px 80px; }
+  .credits-card{ margin:10px; }
+}
+
+@media (max-width: 860px){
+  .sidebar{
+    transform:translateX(-100%); transition:transform .35s var(--ease-spring);
+    box-shadow:var(--shadow-lg);
+  }
+  .sidebar.open{ transform:translateX(0); }
+  .sidebar-toggle{ display:flex; }
+  .sidebar-overlay{ display:block; }
+  .app-shell{ margin-left:0; }
+  .topbar-inner{ padding:0 18px 0 68px; }
+  .main-content{ padding:20px 18px 90px; }
+  .page-title{ font-size:1.6rem; }
+  .detail-panel{ width:100%; }
+  .history-panel{ width:100%; }
+  .game-grid{ grid-template-columns:repeat(auto-fill, minmax(160px,1fr)); gap:14px; }
+  :root[data-columns]{ --card-min:160px; }
+  .credits-card{ padding:36px 22px; }
+}
+
+@media (max-width: 560px){
+  .topbar-inner{ gap:8px; padding:0 14px 0 64px; }
+  .search-wrap{ max-width:none; }
+  .topbar-actions .icon-btn{ width:38px; height:38px; }
+  .game-grid{ grid-template-columns:repeat(auto-fill, minmax(140px,1fr)); gap:10px; }
+  .game-card-body{ padding:10px 12px 12px; }
+  .game-card-title{ font-size:.88rem; }
+  .category-grid{ grid-template-columns:repeat(auto-fill, minmax(140px,1fr)); gap:10px; }
+  .filter-bar{ gap:8px 14px; }
+  .chip{ padding:6px 12px; font-size:.78rem; }
+  .detail-body{ padding:20px 18px 26px; }
+  .detail-title{ font-size:1.35rem; }
+  .detail-actions{ flex-direction:column; }
+  .detail-actions .btn-primary, .detail-actions .btn-secondary{ width:100%; justify-content:center; }
+  .settings-grid{ grid-template-columns:1fr; }
+  .to-top{ bottom:18px; right:18px; width:42px; height:42px; }
+}
+
+@media (max-width: 400px){
+  .game-grid{ grid-template-columns:repeat(2, 1fr); }
+  .category-grid{ grid-template-columns:repeat(2, 1fr); }
+  .page-title{ font-size:1.35rem; }
+}
+
+/* Tablette portrait — ajustement intermédiaire */
+@media (min-width: 561px) and (max-width: 860px){
+  .game-grid{ grid-template-columns:repeat(auto-fill, minmax(190px,1fr)); }
+}
+
+/* Grands écrans : laisser respirer le contenu */
+@media (min-width: 1600px){
+  .main-content{ padding:36px 56px 100px; }
+}
