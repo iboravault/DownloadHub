@@ -81,7 +81,31 @@ const GAMES = [
     download: "https://iboragit.github.io/DL/dl5/",
     fix: "https://gofile.io/d/I9CL7Z",
     fixType: "url"
+  },
+  {
+    id: "content-warning",
+    title: "Content Warning",
+    mode: "multi",
+    category: "Coop",
+    tags: ["Horreur", "Comédie"],
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg?t=1775640428",
+    added: "2026-06-30T20:52:00",
+    download: "https://iboragit.github.io/DL/dl6/",
+    fix: "https://gofile.io/d/cfKaqo",
+    fixType: "url"
   }
+  /* {
+    id: "",
+    title: "",
+    mode: "",
+    category: "",
+    tags: [],
+    image: "",
+    added: "2026-06-30T14:00:00",
+    download: "",
+    fix: "",
+    fixType: ""
+  } */
 ];
 
 /** Listes de référence des sous-catégories proposées (pour l'affichage des grilles). */
