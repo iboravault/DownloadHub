@@ -1,0 +1,77 @@
+/* =============================================================================
+   animations.css — toutes les animations de GameVault
+============================================================================= */
+
+@keyframes skel-shimmer{
+  0%{ background-position:200% 0; }
+  100%{ background-position:-200% 0; }
+}
+
+@keyframes pop{
+  0%{ transform:scale(1); }
+  40%{ transform:scale(1.35); }
+  100%{ transform:scale(1); }
+}
+
+@keyframes fadeInUp{
+  from{ opacity:0; transform:translateY(14px); }
+  to{ opacity:1; transform:translateY(0); }
+}
+
+@keyframes fadeIn{
+  from{ opacity:0; }
+  to{ opacity:1; }
+}
+
+@keyframes floatOrb{
+  0%,100%{ transform:translate(0,0) scale(1); }
+  50%{ transform:translate(30px,-20px) scale(1.05); }
+}
+
+@keyframes scaleIn{
+  from{ opacity:0; transform:scale(.92); }
+  to{ opacity:1; transform:scale(1); }
+}
+
+.orb-1{ animation:floatOrb 22s ease-in-out infinite; }
+.orb-2{ animation:floatOrb 26s ease-in-out infinite reverse; }
+.orb-3{ animation:floatOrb 19s ease-in-out infinite; }
+
+/* Apparition des cartes en cascade */
+.card-enter{
+  animation:fadeInUp .5s var(--ease-spring) both;
+  animation-delay:var(--stagger, 0ms);
+}
+
+.category-card{ animation:fadeInUp .45s var(--ease-spring) both; animation-delay:var(--stagger,0ms); }
+
+.page-header, .filter-bar, .breadcrumb{ animation:fadeInUp .4s var(--ease) both; }
+
+.credits-card{ animation:scaleIn .5s var(--ease-spring) both; }
+.settings-card{ animation:fadeInUp .4s var(--ease) both; }
+.settings-card:nth-child(1){ animation-delay:0ms; }
+.settings-card:nth-child(2){ animation-delay:60ms; }
+.settings-card:nth-child(3){ animation-delay:120ms; }
+.settings-card:nth-child(4){ animation-delay:180ms; }
+
+/* Respect de prefers-reduced-motion et du paramètre "animations" */
+:root[data-animations="off"] *,
+@media (prefers-reduced-motion: reduce){ }
+
+:root[data-animations="off"] .card-enter,
+:root[data-animations="off"] .category-card,
+:root[data-animations="off"] .page-header,
+:root[data-animations="off"] .filter-bar,
+:root[data-animations="off"] .breadcrumb,
+:root[data-animations="off"] .credits-card,
+:root[data-animations="off"] .settings-card{
+  animation:none !important;
+}
+:root[data-animations="off"] .orb-1,
+:root[data-animations="off"] .orb-2,
+:root[data-animations="off"] .orb-3{ animation:none !important; }
+:root[data-animations="off"] *{ transition-duration:0.01ms !important; }
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; scroll-behavior:auto !important; }
+}
