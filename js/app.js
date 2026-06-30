@@ -235,26 +235,22 @@
     viewRoot.innerHTML = `
       <div class="credits-card">
         <div class="credits-avatar">
-          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400&auto=format&fit=crop" alt="Photo de profil">
+          <img src="https://i.pinimg.com/736x/eb/32/c1/eb32c1c552248b1f61e51b71ddb12d41.jpg" alt="Photo de profil">
         </div>
-        <h2 class="credits-name">Votre Pseudo</h2>
-        <p class="credits-desc">Créateur et mainteneur de GameVault. Passionné de jeux indépendants et de game design — ce catalogue rassemble mes découvertes et mes coups de cœur.</p>
+        <h2 class="credits-name">ibora</h2>
+        <p class="credits-desc">Créateur et mainteneur de GameVault. Passionné de jeux — ce catalogue rassemble mes crack et mes coups de cœur.</p>
         <div class="credits-links">
-          <a class="social-btn" href="#" target="_blank" rel="noopener" aria-label="GitHub">
+          <a class="social-btn" href="https://github.com/iboravault" target="_blank" rel="noopener" aria-label="GitHub">
             <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.37.2 2.39.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
             GitHub
           </a>
-          <a class="social-btn" href="#" target="_blank" rel="noopener" aria-label="Discord">
+          <a class="social-btn" href="https://discord.gg/neYnC4nayV" target="_blank" rel="noopener" aria-label="Discord">
             <svg viewBox="0 0 24 24" width="20" height="20"><path d="M19.5 5.5A17 17 0 0 0 15.3 4l-.2.4a13 13 0 0 1 3.7 1.4 14.5 14.5 0 0 0-13.6 0A13 13 0 0 1 8.9 4.4L8.7 4a17 17 0 0 0-4.2 1.5C2 9 1.4 12.4 1.7 15.7a17 17 0 0 0 5.1 2.6l.6-1a10.7 10.7 0 0 1-1.7-.8l.4-.3a12.3 12.3 0 0 0 10 0l.4.3c-.5.3-1.1.6-1.7.8l.6 1a17 17 0 0 0 5.1-2.6c.4-3.6-.5-7-2.9-10.2ZM9.3 13.8c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8c.9 0 1.7.8 1.6 1.8 0 1-.7 1.8-1.6 1.8Zm5.4 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8c.9 0 1.6.8 1.6 1.8s-.7 1.8-1.6 1.8Z"/></svg>
             Discord
           </a>
-          <a class="social-btn" href="#" target="_blank" rel="noopener" aria-label="YouTube">
+          <a class="social-btn" href="https://www.youtube.com/channel/UCtQ143cfmdBKJgwSEtpxFtg" target="_blank" rel="noopener" aria-label="YouTube">
             <svg viewBox="0 0 24 24" width="20" height="20"><path d="M21.6 7.2s-.2-1.5-.8-2.1c-.8-.8-1.7-.8-2.1-.9C15.8 4 12 4 12 4h0s-3.8 0-6.7.2c-.4 0-1.3.1-2.1.9-.6.6-.8 2.1-.8 2.1S2.2 9 2.2 10.7v1.6c0 1.7.2 3.5.2 3.5s.2 1.5.8 2.1c.8.8 1.9.8 2.4.9 1.7.2 7.4.2 7.4.2s3.8 0 6.7-.2c.4 0 1.3-.1 2.1-.9.6-.6.8-2.1.8-2.1s.2-1.7.2-3.5v-1.6c0-1.7-.2-3.5-.2-3.5ZM9.9 14.6V8.9l5.4 2.9-5.4 2.8Z"/></svg>
             YouTube
-          </a>
-          <a class="social-btn" href="#" target="_blank" rel="noopener" aria-label="Steam">
-            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2a10 10 0 0 0-10 9.7l5.4 2.2a2.8 2.8 0 0 1 1.6-.5h.1l2.4-3.5v-.1A3.6 3.6 0 1 1 15 13.3l-3.4 2.4v.1a2.8 2.8 0 0 1-5.5.6L2 14.6A10 10 0 1 0 12 2Zm-2.7 15.6-1.2-.5a2.1 2.1 0 0 0 2.7 1.2 2.1 2.1 0 0 0 1.1-2.8l-1.2-.5a1 1 0 0 1-1.4 1.2 1 1 0 0 1-.6.4Zm6.4-7.6a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8Z"/></svg>
-            Steam
           </a>
         </div>
       </div>`;
